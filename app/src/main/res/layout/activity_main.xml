@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:background="#EAE4B1"
+    >
+
+    <Button
+        android:id="@+id/btnDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:backgroundTint="#1C1A1A"
+        android:text="Dark"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:backgroundTint="#B4BCEA"
+        android:text="Light"
+        >
+    </Button>
+
+</LinearLayout>
